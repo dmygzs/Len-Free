@@ -1,4 +1,5 @@
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
 
 <body>
     <img class="bady-background-block" src="/wp-content/themes/Len-Free/Assets/Len-Images/body-background.jpg" alt="">
@@ -36,8 +37,14 @@
                             <div class="len-article-showcase-main">
                                 <div class="len-article-title-min">
                                     <h1 class="len-article-title-block">Lemon ———— 极简的双边栏主题</h1>
+<<<<<<< HEAD
                                 </div>
 
+=======
+                                    <?php echo Len_Parent_Category_Module(get_the_ID()) ?>
+                                </div>
+                                <?php Len_Module_Switcher(true, false, false); ?>
+>>>>>>> parent of 8dd72b3 (文章页模块基本完善)
                                 <div class="len-article-showcase-content">
                                     <p>主题相对于某些主题来说，算得上是简洁了，没有过多且复杂的主题设置，但又不会使得主题内容单一无趣,主题内的图标多数使用了阿里巴巴的失衡图标库内的图标，主题内并未使用UI框架。
                                     </p>
@@ -46,6 +53,7 @@
                                         在第一版的主题开发中也是积累了不少的布局美观和灵感，以及采集了不少主题的优点之处。</p>
                                     <p>主题是一个极简的双边栏的主题，我初步采样了Typecho的handsome主题和Wordpress的Giligili主题知只采集了这两个的部分布局和样式。</p>
                                     <p>主题后台设置不是很多，设置你可以用不到5分钟的时间就可以看完，多处设置有着该设置的介绍和使用方法，</p>
+<<<<<<< HEAD
                                 </div>
                                 <div class="len-article-copyright">
                                     <legend class="copyright-title">版权声明</legend>
@@ -65,10 +73,16 @@
                                     </div>
                                 </div>
 
+=======
+                                </div>
+
+                                <?php Len_Module_Switcher(false, true, false); ?>
+>>>>>>> parent of 8dd72b3 (文章页模块基本完善)
                                 <div class="len-article-tag">
                                     <svg class="len-tag-post-icon" aria-hidden="true">
                                         <use xlink:href="#icon-biaoqian1"></use>标签
                                         <ul class="article-tag-ul-blcok">
+<<<<<<< HEAD
                                             <li class="article-tag-li-">说说</li>
                                             <li class="article-tag-li-">Wordpress</li>
                                             <li class="article-tag-li-">主题</li>
@@ -77,6 +91,13 @@
                                     </svg>
                                 </div>
                                 <?php Len_Source_Module(); ?>
+=======
+                                            <?php Len_Post_Tag_Module() ?>
+                                        </ul>
+                                    </svg>
+                                </div>
+                                <?php Len_Module_Switcher(false, false, true); ?>
+>>>>>>> parent of 8dd72b3 (文章页模块基本完善)
                             </div>
                         </div>
                     </div>
